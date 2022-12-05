@@ -1,0 +1,35 @@
+{
+    "user_1": {
+        "id": "",
+        "name": "",
+        "img": "",
+        "messages": {
+            "from": null,
+            "text": "",
+            "date": "",
+            "read": false
+        }
+    },
+    "user_2": {
+        "id": "",
+        "name": "",
+        "img": "",
+        "messages": {
+            "from": null,
+            "text": "",
+            "date": "",
+            "read": false
+        }
+    },
+    "user_3": {
+        "id": "",
+        "name": "",
+        "img": "",
+        "messages": {
+            "from": null,
+            "text": "",
+            "date": "",
+            "read": false
+        }
+    }
+}

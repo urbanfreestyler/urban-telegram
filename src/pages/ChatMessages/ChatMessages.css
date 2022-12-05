@@ -1,0 +1,152 @@
+.chatmessages {
+  display: none;
+  height: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.chatmessages__container {
+  position: absolute;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.chatmessages__date {
+  background: rgb(51, 51, 5, 0.8);
+  color: white;
+
+  width: max-content;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.5rem;
+  padding-left: 5px;
+  padding-right: 5px;
+
+  font-size: 14px;
+}
+
+.chatmessages__message {
+  padding: 15px 0 15px 0;
+  display: flex;
+  width: 100%;
+}
+
+.chatmessages__profileimg {
+  display: flex;
+  align-items: flex-end;
+}
+
+.profImg {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.chatmessages__middle {
+  flex-grow: 1;
+  position: relative;
+}
+
+.chatmessages__topbar {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 3rem;
+  background-color: white;
+}
+
+.chatmessages__sendbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex: 0 1;
+
+  width: 100%;
+  max-height: 3rem;
+  min-height: 3rem;
+  background-color: white;
+}
+
+.chatmessages__from {
+  max-width: 250px;
+
+  position: relative;
+  display: flex;
+
+  background: whitesmoke;
+  color: #000;
+
+  padding: 5px 10px 5px 10px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  justify-content: flex-end;
+}
+
+.chatmessages__time {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  font-size: 12px;
+  color: gray;
+  padding-right: 5px;
+}
+
+.topbar_contactinfo {
+  padding-left: 10px;
+}
+
+.topbar_lastseen {
+  font-size: 12px;
+  color: gray;
+}
+
+.topbar_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+
+  color: #999;
+}
+
+.sendbar_attach {
+  padding-right: 10px;
+  font-size: 1.2rem;
+  color: #999;
+  font-weight: lighter;
+
+  transform: rotate(180deg);
+}
+
+.sendbar_input {
+  height: 2rem;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+  outline: none;
+  border: none;
+}
+.sendbar_send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+  padding-right: 10px;
+
+  font-size: 1.2rem;
+}
